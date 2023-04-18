@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pizzeria!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="catalog-page">
+    <header>
+      <!-- Заголовок сторінки -->
+      <div class="container">
+        <p class="text"></p>
+      </div>
+      <!-- Меню навігації -->
+      <nav>
+        <ul>
+          <li><a href="#section-1">Каталог</a></li>
+          <li><a href="#section-2">Розділ 2</a></li>
+          <li><a href="#section-3">Розділ 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <button class="scroll-to-top-btn" title="Scroll to top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 2L1 12h4v10h10v-10h4L12 2zm0 5l5 5h-3v6h-4v-6H7l5-5z"/>
+      </svg>
+    </button>
+    <main>
+      <!-- Секція 1 -->
+      <section id="section-1">
+        <div class="catalog-header">
+          <h2>Каталог страв</h2>
+        <table class="catalog-table">
+          <thead>
+            <tr>
+              <th>Назва страви</th>
+              <th>Фото</th>
+              <th>Опис</th>
+              <th>Ціна</th>
+              <th>Замовити</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Піца Маргарита</td>
+              <td><img src="images/pizza-margherita.jpg" alt="Піца Маргарита" class="catalog-img"></td>
+              <td>Піца «Маргарита» — це типова неаполітанська піца, виготовлена з помідорами Сан-Марцано, сиром моцарелла, свіжим базиліком, сіллю та оливковою олією.</td>
+              <td>100 грн</td>
+              <td><button class="order-btn">Замовити</button></td>
+            </tr>
+            <tr>
+              <td>Піца Пепероні</td>
+              <td><img src="images/pizza-pepperoni.jpg" alt="Піца Пепероні" class="catalog-img"></td>
+              <td>Пепероні — гострий різновид салямі в італійській та американській кухні, яка своїм походженням зобов'язана гострій ковбасі з півдня Італії.</td>
+              <td>120 грн</td>
+              <td><button class="order-btn">Замовити</button></td>
+            </tr>
+            <tr>
+              <td>Піца Гавайська</td>
+              <td><img src="images/pizza-hawaiian.jpg" alt="Піца Гавайська" class="catalog-img"></td>
+              <td>Гавайська піца — піца, що готується з використанням білого соусу, сиру, ананасів і курки.</td>
+              <td>110 грн</td>
+              <td><button class="order-btn">Замовити</button></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- Секція 2 -->
+      <section id="section-2">
+        <h2>Розділ 2</h2>
+        <p>Текст розділу 2</p>
+      </section>
+      <!-- Секція 3 -->
+      <section id="section-3">
+        <h2>Розділ 3</h2>
+        <p>Текст розділу 3</p>
+      </section>
+    </main>
+    <footer>
+      <!-- Підвал сторінки -->
+      <p>&copy; 2023 Pizzeria!</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
