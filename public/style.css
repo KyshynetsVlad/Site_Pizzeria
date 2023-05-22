@@ -1,0 +1,190 @@
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section:nth-child(even) {
+  background-image: url('https://example.com/image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #000;
+}
+
+section:nth-child(odd) {
+  background-color: #fff;
+  color: #000;
+}
+
+section h2 {
+  font-size: 48px;
+  margin: 0 0 20px;
+}
+
+section p {
+  font-size: 24px;
+  max-width: 800px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.container {
+  background-color: #333;
+  height: 6vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.text {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #fff;
+  animation: typing 2s steps(100) 1s 1 normal both;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+} 
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-to-top-btn:hover {
+  opacity: 0.7;
+}
+
+.scroll-to-top-btn:active {
+  opacity: 0.5;
+}
+
+/* Контейнер таблиці */
+.table-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стилі таблиці*/
+.catalog-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  table-layout: fixed;
+}
+
+.catalog-table th,
+.catalog-table td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  width: auto;
+}
+
+.catalog-table th {
+  background-color: #f2f2f2;
+  width: auto;
+}
+
+/* Стилі кнопки замовлення */
+.order-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.catalog-page .order-btn {
+  /* Додаткові стилі для кнопок замовлення на сторінці з каталогом */
+}
+
+.catalog-img {
+  width:100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+ .catalog-header {
+  display: block;
+  clear: both;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.catalog-header h2 {
+  flex-basis: 100%;
+  margin-top: 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
